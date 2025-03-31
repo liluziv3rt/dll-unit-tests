@@ -6,14 +6,14 @@
 Класс не требует явного конструктора - инициализация коллекций происходит через публичные свойства.
 
 Основные коллекции
-events - список названий событий
-types - список типов событий
-locations - список мест проведения
-dates - список дат событий
-organizations - список организаторов
+1.	events - список названий событий
+2.	types - список типов событий
+3.	locations - список мест проведения
+4.	dates - список дат событий
+5.	organizations - список организаторов
 
 Методы
-CreateEvent(List<string> events, string Event)
+1.	CreateEvent(List<string> events, string Event)
 Добавляет новое событие в коллекцию
 Параметры:
 events: Список событий
@@ -21,43 +21,44 @@ Event: Название нового события
 Возвращает: Обновленный список событий
 Особенности: Если передано null, добавления не происходит
 
-DeleteEvent(int indexToRemove)
+2.	DeleteEvent(int indexToRemove)
 Удаляет событие по указанному индексу
 Параметры:
 indexToRemove: Индекс удаляемого события
 Особенности: Если индекс недопустим, удаление не производится
 
-ShowAllEvents()
+3.	ShowAllEvents()
 Возвращает форматированную строку со всеми событиями
-ShowEventsByTime(DateTime needDate)
+
+4.	ShowEventsByTime(DateTime needDate)
 Возвращает события на указанную дату
 Параметры:
 needDate: Дата для поиска
 Возвращает: Строку с найденными событиями или "None"
 
-ShowEventById(int id)
+5.	ShowEventById(int id)
 Возвращает информацию о событии по ID
 Параметры:
 id: Идентификатор события
 Исключения: ArgumentException при недопустимом ID
 
-ShowEventByLocation(string location)
+6.	ShowEventByLocation(string location)
 Находит событие по месту проведения
 Возвращает: Название события или "None"
 
-CountEvents(int count)
+7.	CountEvents(int count)
 Возвращает указанное количество событий
 Формат аналогичен ShowAllEvents()
 
-ShowAllEventsByType(string type)
+8.	ShowAllEventsByType(string type)
 Находит события по типу
 Возвращает: Название события или "None"
 
-ShowAllEventsByOrg(string org)
+9.	ShowAllEventsByOrg(string org)
 Находит события по организатору
 Возвращает: Название события или "None"
 
-EditEvents(int id, string editType, string edit)
+10.	EditEvents(int id, string editType, string edit)
 Редактирует атрибуты события:
 "event" - название
 "location" - место
