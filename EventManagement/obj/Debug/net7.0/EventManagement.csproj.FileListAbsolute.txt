@@ -1,0 +1,11 @@
+C:\sharp\unit-tests\EventManagement\bin\Debug\net7.0\EventManagement.deps.json
+C:\sharp\unit-tests\EventManagement\bin\Debug\net7.0\EventManagement.dll
+C:\sharp\unit-tests\EventManagement\bin\Debug\net7.0\EventManagement.pdb
+C:\sharp\unit-tests\EventManagement\obj\Debug\net7.0\EventManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\sharp\unit-tests\EventManagement\obj\Debug\net7.0\EventManagement.AssemblyInfoInputs.cache
+C:\sharp\unit-tests\EventManagement\obj\Debug\net7.0\EventManagement.AssemblyInfo.cs
+C:\sharp\unit-tests\EventManagement\obj\Debug\net7.0\EventManagement.csproj.CoreCompileInputs.cache
+C:\sharp\unit-tests\EventManagement\obj\Debug\net7.0\EventManagement.dll
+C:\sharp\unit-tests\EventManagement\obj\Debug\net7.0\refint\EventManagement.dll
+C:\sharp\unit-tests\EventManagement\obj\Debug\net7.0\EventManagement.pdb
+C:\sharp\unit-tests\EventManagement\obj\Debug\net7.0\ref\EventManagement.dll
